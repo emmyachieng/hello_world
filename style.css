@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.text{
+    font-size: 6em;
+    font-weight: 700;
+}
+
+.h {
+    color: red;
+    opacity: 0%;
+    animation-name: fading;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+    
+}
+@keyframes fading{
+    100%{
+        opacity: 100%;
+    }
+
+    50%{
+        opacity: 50%;
+    }
+}
+
+.e{
+    color: green;
+    opacity: 0%;
+    animation-name: fading;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+   
+}
+
+.l{
+    color: black;
+    opacity: 0%;
+    animation-name: fading;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+   
+}
+
+.l2 {
+    color: red;
+    opacity: 0%;
+    animation-name: fading;
+    animation-delay: 6s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+}
+
+.o {
+    color: green;
+    opacity: 0%;
+    animation-name: fading;
+    animation-delay: 8s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+}
+
+.world {
+    color: black;
+    opacity: 0%;
+    animation-name: fading;
+    animation-delay: 10s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+}
